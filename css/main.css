@@ -1,9 +1,9 @@
 body {
+  font-size: 150%;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1 span {
-	font-size: 20px;
 	color: #CCCCCC;
 }
 
@@ -32,7 +32,6 @@ h1 span {
 
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
@@ -44,7 +43,7 @@ h1 span {
 
 
 .jumbotron {
-  background-image:url('../images/cover.jpg');
+  background-image:url('../images/macbook-cover-w1280.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +56,6 @@ h1 span {
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   line-height: 30px;
@@ -65,16 +63,15 @@ h1 span {
 
 .jumbotron h2 {
   color: #fff;
-  font-size: 36px;  
+
 }
 
 .jumbotron p {
-  font-size: 20px;
   color: #fff;
   font-weight: bold;
 }
 .jumbotron a {
-	font-size: 20px;
+	
 	color: #fff;
 	
 }
@@ -85,7 +82,7 @@ h1 span {
 
 .learn-more h3 {
   font-family: 'Roboto Slab', serif;
-  font-size: 18px;
+  
   font-weight: bold;
 }
 
@@ -94,18 +91,16 @@ h1 span {
 }
 
 .neighborhood-guides {
-    background-color: #efefef;
-    border-bottom:1px solid #dbdbdb;
+  background-color: #efefef;
+  border-bottom:1px solid #dbdbdb;
 }
 
 .neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
+  color: #393c3d;
 }
 
 .neighborhood-guides p {
-    font-size: 15px;
-    margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .footer {
