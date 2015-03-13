@@ -2,8 +2,32 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1 span {
+	font-size: 20px;
+	color: #CCCCCC;
+}
+
+.bio {
+	background-color: #efefef;
+}
+
+.bio h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.bio .container {
+	text-align: center;
+	width: 40%;
+}
+
 #img-cent {
 	padding-top: 20px;
+}
+
+
+.nav ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .nav a {
@@ -20,7 +44,7 @@ body {
 
 
 .jumbotron {
-  background-image:url('http://cdn.archinect.net/images/1200x/i3/i3s7vlg851vkk7sv.jpg');
+  background-image:url('../images/cover.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,6 +60,12 @@ body {
   font-size: 48px;  
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  line-height: 30px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  font-size: 36px;  
 }
 
 .jumbotron p {
@@ -44,6 +74,7 @@ body {
   font-weight: bold;
 }
 .jumbotron a {
+	font-size: 20px;
 	color: #fff;
 	
 }
@@ -77,9 +108,12 @@ body {
     margin-bottom: 13px;
 }
 
+.footer {
+	height: 40px;
+}
 
-
-
-
-
-
+.footer p {
+	color: #c4c4c4;
+	padding-top: 10px;
+	text-align: center;
+}

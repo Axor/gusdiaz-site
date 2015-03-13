@@ -4621,7 +4621,7 @@ a.badge:focus {
 }
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   color: inherit;
   background-color: #eee;
 }
@@ -4663,8 +4663,8 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  /*background-color: #fff;*/
+  /*border: 1px solid #ddd;*/
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
