@@ -90,25 +90,47 @@ h1 span {
   color: #00b0ff;
 }
 
-.neighborhood-guides {
+.main-content {
   background-color: #efefef;
   border-bottom:1px solid #dbdbdb;
 }
 
-.neighborhood-guides h2 {
+.main-content h2 {
   color: #393c3d;
 }
 
-.neighborhood-guides p {
+.main-content p {
   margin-bottom: 13px;
 }
 
+.social-btns ul {
+  padding:0;
+  margin: 0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+}
+.social-btns li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.social-btns a {
+  text-decoration: none;
+}
+.social-footer {
+  background-color: rgb(51, 122, 183);
+}
 .footer {
 	height: 40px;
 }
 
 .footer p {
-	color: #c4c4c4;
-	padding-top: 10px;
+	color: black;
 	text-align: center;
+  padding-top: 10px;
 }
+
+
