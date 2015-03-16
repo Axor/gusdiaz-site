@@ -133,4 +133,27 @@ h1 span {
   padding-top: 10px;
 }
 
+.about-image {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.header {
+  height: 135px;
+  color: white;
+  background-color: rgb(51, 122, 183);
+}
+
+.header h1 {
+  margin-top: 70px;
+}
+
+.about-content {
+  text-align: center;
+}
 
