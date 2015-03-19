@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <!-- Nav-bar -->
     <?php
       define('THIS_PAGE', 'Contact');
       include('nav-bar.php');
@@ -76,12 +77,11 @@
         </div>
       </div>
     </div>
-
+    <!-- Footer -->
     <?php
       include 'footer.php';
     ?>
   </body>
-  <!-- Improve -->
   <!-- Google Analitycs -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

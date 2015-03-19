@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <!-- Nav-bar -->
     <?php
       define('THIS_PAGE', 'About');
       include('nav-bar.php');
@@ -111,7 +112,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Footer -->
     <?php
       include 'footer.php';
     ?>

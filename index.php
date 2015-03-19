@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <!-- Nav-bar -->
     <?php
       define('THIS_PAGE', 'Home');
       include('nav-bar.php');
@@ -72,7 +73,7 @@
               I Code
             </h3>
             <p>I am developer, learning things everyday. I work mostly times on Web Proyects.</p>
-            <p><a href="#"><button type="button" class="btn btn-primary">Check My GitHub</button></a></p>
+            <p><a href="https://github.com/Axor"><button type="button" class="btn btn-primary">Check My GitHub</button></a></p>
           </div>
           <div class="col-md-4">
             <h3>
@@ -101,7 +102,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Footer -->
     <?php
       include 'footer.php';
     ?>
