@@ -40,7 +40,7 @@
         <img class="about-image" src="images/gus.jpeg" alt="Gustavo's image">
         <h2>Hi! I'm Gustavo Díaz, and I'm a Developer.</h2>
         <p class="lead">A 4 years of experience Application Web Developer and a Constant Learner. </p>
-        <p>Currently I'm working on providing code solutions and database maintenance on IBM. I have worked as Consultant for SAP and recently I have been focusing in personal projects for web-based mobile apps. I always maintain the professionalism, responsibility, and honesty in every project and objective.</p></p>
+        <p class="about-text">Currently I'm working on providing code solutions and database maintenance on IBM. I have worked as Consultant for SAP and recently I have been focusing in personal projects for web-based mobile apps. I always maintain the professionalism, responsibility, and honesty in every project and objective.</p></p>
       </div>
     </div>
     
@@ -66,6 +66,7 @@
               <h2>Programming Languages</h2>
               <p>
                 <span class="label label-info">HTML</span>
+                <span class="label label-warning">CSS</span>
                 <div class="progress">
                   <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                     90%
@@ -73,7 +74,15 @@
                 </div>
               </p>
               <p>
-                <span class="label label-info">CSS</span>
+                <span class="label label-info">JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                    65%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-default">PHP</span>
                 <div class="progress">
                   <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                     75%
@@ -81,15 +90,7 @@
                 </div>
               </p>
               <p>
-                <span class="label label-info">JavaScript</span>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                    60%
-                  </div>
-                </div>
-              </p>
-              <p>
-                <span class="label label-info">PHP/MySQL</span>
+                <span class="label label-info">MySQL</span>
                 <div class="progress">
                   <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                     80%

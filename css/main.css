@@ -156,6 +156,13 @@ h1 span {
   text-align: center;
 }
 
+.about-text {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
 .contact-content {
   margin-top: 15px;
   margin-left: auto;
