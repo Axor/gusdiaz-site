@@ -12,22 +12,10 @@
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="nav nav-pills">
-          <li role="presentation"><a href="index.html">home</a></li>
-          <li role="presentation" class="active"><a href="about.html">about</a></li>   
-          <li role="presentation"><a href="http://twitter.com/gus_diaz">twitter</a></li>
-          <li role="presentation"><a href="contact.html">contact</a></li>
-          <li role="presentation" class="dropdown">
-            <a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-expanded="true">EN<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">ES</a></li>
-              </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <?php
+      define('THIS_PAGE', 'About');
+      include('nav-bar.php');
+    ?>
 
     <div class="header">
       <div class="container">
@@ -124,11 +112,9 @@
       </div>
     </div>
 
-  <footer class="footer">
-    <div class="container">
-        <p>Copyright &copy; gusdiaz.me 2015</p>
-    </div>
-  </footer>
+    <?php
+      include 'footer.php';
+    ?>
   </body>
 
   <!-- Google Analitycs -->

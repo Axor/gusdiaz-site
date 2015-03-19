@@ -12,28 +12,16 @@
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="index.html">home</a></li>
-          <li role="presentation"><a href="about.html">about</a></li>   
-          <li role="presentation"><a href="http://twitter.com/gus_diaz">twitter</a></li>
-          <li role="presentation"><a href="contact.php">contact</a></li>
-          <li role="presentation" class="dropdown">
-            <a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-expanded="true">EN<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">ES</a></li>
-              </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <?php
+      define('THIS_PAGE', 'Home');
+      include('nav-bar.php');
+    ?>
 
     <div class="jumbotron">
       <div class="container">
         <h1>Gustavo Díaz</h1>
         <p>Web Application Developer</p>
-        <p><a class="btn btn-primary btn-lg" href="about.html" role="button">Learn More</a></p>
+        <p><a class="btn btn-primary btn-lg" href="about.php" role="button">Learn More</a></p>
       </div>
     </div>
     
@@ -114,11 +102,9 @@
       </div>
     </div>
 
-  <footer class="footer">
-    <div class="container">
-        <p>Copyright &copy; gusdiaz.me 2015</p>
-    </div>
-  </footer>
+    <?php
+      include 'footer.php';
+    ?>
   </body>
 
   <!-- Google Analitycs -->

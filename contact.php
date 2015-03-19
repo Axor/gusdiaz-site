@@ -14,7 +14,8 @@
 
   <body>
     <?php
-      include 'nav-bar.php';
+      define('THIS_PAGE', 'Contact');
+      include('nav-bar.php');
     ?>
 
     <div class="header">
