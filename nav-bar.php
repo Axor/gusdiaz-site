@@ -1,5 +1,5 @@
 <?php
-     define('THIS_PAGE', 'pagename');
+    define('THIS_PAGE', 'pagename');
      
     switch (THIS_PAGE) {
      
