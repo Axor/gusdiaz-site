@@ -96,16 +96,16 @@ h1 span {
   color: #00b0ff;
 }
 
-.main-content {
+.wid-content {
   background-color: #efefef;
   border-bottom:1px solid #dbdbdb;
 }
 
-.main-content h2 {
+.wid-content h2 {
   color: #393c3d;
 }
 
-.main-content p {
+.wid-content p {
   margin-bottom: 13px;
 }
 

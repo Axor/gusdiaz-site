@@ -26,9 +26,9 @@
       </div>
     </div>
     
-    <div class="main-content">
+    <div class="wid-content">
         <div class="container">
-            <h2>This is what I do...</h2>
+            <h1>What I do</h1>
             <p>I love the internet, I think the internet is the best tool ever made. So I dedicate almost all my time to understand and learn the tools inside the web.</p>
             <div class="row">
                 <div class="col-md-4">
