@@ -16,7 +16,7 @@
     <!-- Nav-bar -->
     <?php
       define('THIS_PAGE', 'Contact');
-      include('nav-bar.php');
+      include('php/nav-bar.php');
     ?>
 
     <div class="header">
@@ -65,7 +65,7 @@
     </div>
     <!-- Footer -->
     <?php
-      include 'footer.php';
+      include 'php/footer.php';
     ?>
   </body>
   <!-- Google Analitycs -->

@@ -15,7 +15,7 @@
     <!-- Nav-bar -->
     <?php
       define('THIS_PAGE', 'Home');
-      include('nav-bar.php');
+      include('php/nav-bar.php');
     ?>
 
     <div class="jumbotron">
@@ -100,7 +100,7 @@
     </div>
     <!-- Footer -->
     <?php
-      include 'footer.php';
+      include 'php/footer.php';
     ?>
   </body>
 
