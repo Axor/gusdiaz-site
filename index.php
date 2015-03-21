@@ -58,47 +58,43 @@
 
     <div class="learn-more">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>
-              <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-              I Blog
-            </h3>
-            <p>I have a personal blog called <a href="http://grandecabeza.wordpress.com">GrandeCabeza,</a> I post things like lifehacker tips, code, opinions and experiences. </p>
-            <p><a href="http://grandecabeza.wordpress.com"><button type="button" class="btn btn-primary">Check My Posts</button></a></p>
-          </div>
-          <div class="col-md-4">
-            <h3>
-              <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-              I Code
-            </h3>
-            <p>I am developer, learning things everyday. I work mostly times on Web Proyects.</p>
-            <p><a href="https://github.com/Axor"><button type="button" class="btn btn-primary">Check My GitHub</button></a></p>
-          </div>
-          <div class="col-md-4">
-            <h3>
-              <i class="fa fa-gamepad"></i>
-              I Play
-            </h3>
-            <p>One of my greatest passions are videogames. I am a great fan of FPS and Strategy genres. I play everytime I can, everytime work allow me. :) </p>
-            <p><a href="#"><button type="button" class="btn btn-primary">Check My Games</button></a></p>
-          </div>
-        </div>
       </div>
     </div>
 
-    <div class="social-footer">
+    <!-- likes-content -->
+    <div class="likes-content">
       <div class="container">
-        <div class="social-btns">
-          <ul>
-
-            <li><a href="http://twitter.com/gus_diaz" class="fa fa-3x fa-inverse fa-twitter"></a></li>
-            <li><a href="https://github.com/Axor" class="fa fa-3x fa-inverse fa-github"></a></li>
-            <li><a href="http://mx.linkedin.com/in/gus24" class="fa fa-3x fa-inverse fa-linkedin"></a></li>
-            <li><a href="https://instagram.com/gus_diaz" class="fa fa-3x fa-inverse fa-instagram"></a></li>
-            <li><a href="https://www.youtube.com/channel/UCOUTJ-0493KN-xGZ6dg2kKw" class="fa fa-3x fa-inverse fa-youtube"></a></li>
-
-          </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i style="color:rgb(51, 122, 183)" class="fa fa-book fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Blog
+            </h3>
+            <p>I have a personal blog, I post things like lifehacker tips, code, opinions and experiences. </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i style="color:rgb(51, 122, 183)" class="fa fa-code fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Code
+            </h3>
+            <p>I am developer, learning things everyday. I work mostly times on Web Projects.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i style="color:rgb(51, 122, 183)" class="fa fa-gamepad fa-stack-1x"></i>
+            </span>
+            <h3>
+              I Play
+            </h3>
+            <p>One of my greatest passions are videogames. I am a great fan of FPS and Strategy genres. </p>
+          </div>
         </div>
       </div>
     </div>

@@ -24,6 +24,10 @@ h1 span {
 	padding-top: 20px;
 }
 
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
 
 .nav ul {
 	margin-top: 10px;
@@ -40,6 +44,10 @@ h1 span {
 .nav li {
   display: inline;
 }
+
+/*.dropdown-menu {
+    min-width: 0px;
+}*/
 
 .jumbotron {
   background-image:url('../images/macbook-cover-w1280.jpg');
@@ -62,7 +70,6 @@ h1 span {
 
 .jumbotron h2 {
   color: #fff;
-
 }
 
 .jumbotron p {
@@ -103,27 +110,39 @@ h1 span {
 }
 
 .social-btns ul {
-  padding:0;
+  padding: 0;
   margin: 0;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 40px;
-
 }
+
 .social-btns li {
   display: inline;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .social-btns a {
   text-decoration: none;
 }
-.social-footer {
+.likes-content {
+  color: white;
   background-color: rgb(51, 122, 183);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.likes-content h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.likes-content p {
+  line-height: 30px;
+}
+
 .footer {
-	height: 40px;
+	margin-top: 15px;
 }
 
 .footer p {

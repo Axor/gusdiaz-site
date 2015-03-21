@@ -96,22 +96,6 @@
 
       </div>
     </div>
-
-    <div class="social-footer">
-      <div class="container">
-        <div class="social-btns">
-          <ul>
-
-            <li><a href="http://twitter.com/gus_diaz" class="fa fa-3x fa-inverse fa-twitter"></a></li>
-            <li><a href="https://github.com/Axor" class="fa fa-3x fa-inverse fa-github"></a></li>
-            <li><a href="http://mx.linkedin.com/in/gus24" class="fa fa-3x fa-inverse fa-linkedin"></a></li>
-            <li><a href="https://instagram.com/gus_diaz" class="fa fa-3x fa-inverse fa-instagram"></a></li>
-            <li><a href="https://www.youtube.com/channel/UCOUTJ-0493KN-xGZ6dg2kKw" class="fa fa-3x fa-inverse fa-youtube"></a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
     <!-- Footer -->
     <?php
       include 'footer.php';

@@ -5,64 +5,112 @@
      
     case 'Home':
       echo ('
-        <div class="nav">
-        <div class="container">
-        <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">home</a></li>
-        <li role="presentation"><a href="about.php">about</a></li>   
-        <li role="presentation"><a href="http://twitter.com/gus_diaz">twitter</a></li>
-        <li role="presentation"><a href="contact.php">contact</a></li>
-        <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-expanded="true">EN<span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-        <li><a href="#">ES</a></li>
-        </ul>
-        </li>
-        </ul>
-        </div>
-        </div>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Gustavo Díaz</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="about.php">About Me</a></li>
+                    <li class="disabled"><a href="#">Blog</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="contact.php">Contact</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ES</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
           ');
     break;
      
     case 'About':
       echo ('
-        <div class="nav">
-        <div class="container">
-        <ul class="nav nav-pills">
-        <li role="presentation"><a href="index.php">home</a></li>
-        <li role="presentation" class="active"><a href="#">about</a></li>   
-        <li role="presentation"><a href="http://twitter.com/gus_diaz">twitter</a></li>
-        <li role="presentation"><a href="contact.php">contact</a></li>
-        <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-expanded="true">EN<span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-        <li><a href="#">ES</a></li>
-        </ul>
-        </li>
-        </ul>
-        </div>
-        </div>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Gustavo Díaz</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active"><a href="#">About Me</a></li>
+                    <li class="disabled"><a href="#">Blog</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="contact.php">Contact</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ES</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
           ');
     break;
      
     case 'Contact':
       echo ('
-        <div class="nav">
-        <div class="container">
-        <ul class="nav nav-pills">
-        <li role="presentation"><a href="index.php">home</a></li>
-        <li role="presentation"><a href="about.php">about</a></li>   
-        <li role="presentation"><a href="http://twitter.com/gus_diaz">twitter</a></li>
-        <li role="presentation" class="active"><a href="#">contact</a></li>
-        <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-expanded="true">EN<span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-        <li><a href="#">ES</a></li>
-        </ul>
-        </li>
-        </ul>
-        </div>
-        </div>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Gustavo Díaz</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Me</a></li>
+                    <li class="disabled"><a href="#">Blog</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ES</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
           ');
     break;
      
