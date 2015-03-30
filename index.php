@@ -20,7 +20,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Gustavo Díaz</h1>
+        <h1 id="front-tittle">Gustavo Díaz</h1>
         <p>Web Application Developer</p>
         <p><a class="btn btn-primary btn-lg" href="about.php" role="button">Learn More</a></p>
       </div>
@@ -98,6 +98,130 @@
         </div>
       </div>
     </div>
+
+    <div class="about-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                  <div class="thumbnail">
+                    <img class="about-image" src="images/gus.jpeg" alt="Gustavo's image">
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                  <h2>Hi! I'm Gustavo Díaz...</h2>
+                  <p class="about-text"><span class="dev">I'm a Web Developer</span> Living in Guadalajara, Jalisco, México. I have worked as Consultant and recently I have been focusing in personal projects for web-based mobile apps. </p>
+                  <p>Currently I'm working on providing code solutions and database maintenance on IBM. I always maintain the professionalism, responsibility, and honesty in every project and objective.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>My Skills</h2>
+              <p>I am a developer focused in Web Technologies. Most of my vocational education is aimed to developing web-based solutions.</p>
+              <p>During college, I specialized in two software branches:</p>
+              <ul class="list-unstyled">
+                <li class="lead"><i class="fa fa-database"></i>   Web DataBases</li>
+                <li class="lead"><i class="fa fa-file-code-o"></i>    Application Developing</li>
+              </ul>
+              <p>Feel free to check my resume and if you need to contact me, go <a href="contact.html">here.</a></p>
+              <p>
+                <!-- <a href="#"> -->
+                  <button type="button" class="btn btn-primary btn-lg btn-block disabled">Download CV</button>
+                <!-- </a> -->
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h2>Programming Languages</h2>
+              <p>
+                <span class="label label-info">HTML</span>
+                <span class="label label-warning">CSS</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    90%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-info">JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                    65%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-default">PHP</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                    75%
+                  </div>
+                </div>
+              </p>
+              <p>
+                <span class="label label-info">MySQL</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    80%
+                  </div>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-contact">
+      <div class="contact-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 id="contact-title">CONTACT ME</h1>
+              <p>If you have any inquiry, please send me a message and I will contact you as soon as I can.</p>
+            </div>
+            <div class="col-md-6">
+              <form role="form" name="contact-form" action="php/send-mail.php" method="post" >
+            <div class="well well-sm">
+              <strong><i class="fa fa-check"></i> Required Field</strong>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" name="firstName" placeholder="Name" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="email" class="form-control" name="emailAddress" placeholder="E-Mail" required>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Message:</label>
+              <div class="input-group">
+                <textarea class="form-control" rows="5" name="messageContent" style="resize:none" required></textarea>
+                <span class="input-group-addon"><i class="fa fa-check"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-info btn-lg text-uppercase"><i class="fa fa-paper-plane-o"></i>Send Message</button>
+            </div>
+          </form>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <?php
       include 'php/footer.php';
